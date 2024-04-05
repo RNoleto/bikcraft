@@ -7,10 +7,17 @@ Description: Tema criado para o restaurante Bikcraft
 Version: 1.0
 */
 
+
+/* Estilos ADM Wordpress */
+
+/* .customize-support .header {
+  margin-top: 32px;
+} */
+
 /* Estilos Gerais */
 
-@import 'css/reset.css';
 @import 'css/normalize.css';
+@import 'css/reset.css';
 @import 'css/contato.css';
 @import 'css/grid.css';
 @import 'css/portfolio.css';
