@@ -33,6 +33,11 @@
 					</div>
 
 				</div>
+        <div class="grid-4 footer_redes">
+          <h3>Redes Sociais</h3>
+          <?php include(TEMPLATEPATH . "/inc/redes-sociais.php"); ?>
+        </div>
+
 			</div>
 
 			<div class="copy">

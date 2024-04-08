@@ -5,6 +5,5 @@
       <li>
         <a href="<?php the_sub_field('link_social'); ?>" target="_blank"><img src="<?php the_sub_field('imagem_social'); ?>" alt="<?php the_sub_field('nome_social'); ?>"></a>
       </li>
-      else : endif; ?>
-    <?php endwhile; else : endif; ?>
+      <?php endwhile; else: endif ?>
 </ul>
