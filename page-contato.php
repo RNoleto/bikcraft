@@ -3,7 +3,7 @@
 get_header();
 ?>
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
 
@@ -19,7 +19,7 @@ get_header();
 				<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
 				<input type="text" class="nao-aparece" name="leaveblank">
 				<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
-				<input type="text" class="nao-aparece" name="dontchange" value="http://" >
+				<input type="text" class="nao-aparece" name="dontchange" value="http://">
 
 				<label for="mensagem">Mensagem</label>
 				<textarea name="mensagem" id="mensagem"></textarea>
@@ -40,6 +40,7 @@ get_header();
 		<section class="container contato_mapa">
 			<a href="<?php the_field('link_mapa'); ?>" target="_blank" class="grid-16"><img src="<?php the_field('imagem_mapa'); ?>" alt="<?php the_field('texto_mapa'); ?>"></a>
 		</section>
-<?php endwhile; else: endif; ?>
+<?php endwhile;
+else : endif; ?>
 
 <?php get_footer(); ?>

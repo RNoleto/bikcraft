@@ -3,7 +3,7 @@
 get_header();
 ?>
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
+		<?php include(TEMPLATEPATH . "/inc/introducao.php"); ?>
 
 		<section class="container produto_item animar-interno">
 			<div class="grid-11">
@@ -73,7 +73,7 @@ get_header();
 					<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
 					<input type="text" class="nao-aparece" name="leaveblank">
 					<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
-					<input type="text" class="nao-aparece" name="dontchange" value="http://" >
+					<input type="text" class="nao-aparece" name="dontchange" value="http://">
 
 					<label for="mensagem">Especificações</label>
 					<textarea name="mensagem" id="mensagem"></textarea>
@@ -88,20 +88,14 @@ get_header();
 					<p>Escolha as especificações:</p>
 					<ul>
 						<li>- Cores</li>
-    				<li>- Estilo</li>
-    				<li>- Medidas</li>
-   					<li>- Acessórios</li>
-    				<li>- E Outros</li>
+						<li>- Estilo</li>
+						<li>- Medidas</li>
+						<li>- Acessórios</li>
+						<li>- E Outros</li>
 					</ul>
 				</div>
 			</div>
 		</section>
-
-		<div class="quebra">
-			<blockquote class="quote-externo container">
-				<p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
-				<cite>WILLIAM MORRIS</cite>
-			</blockquote>
-		</div>
-		<?php endwhile; else: endif ?>
-		<?php get_footer(); ?>
+<?php endwhile;
+else : endif ?>
+<?php get_footer(); ?>

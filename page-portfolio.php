@@ -8,16 +8,17 @@ get_header();
     <section class="container animar-interno">
       <ul class="rslides">
 
-      <?php if(have_rows('quote_portfolio')): while(have_rows('quote_portfolio')) : the_row(); ?>
+        <?php if (have_rows('quote_portfolio')) : while (have_rows('quote_portfolio')) : the_row(); ?>
 
-        <li>
-          <blockquote class="quote_clientes">
-            <?php the_sub_field('quote'); ?>
-            <cite><?php the_sub_field('nome_quote');?></cite>
-          </blockquote>
-        </li>
+            <li>
+              <blockquote class="quote_clientes">
+                <?php the_sub_field('quote'); ?>
+                <cite><?php the_sub_field('nome_quote'); ?></cite>
+              </blockquote>
+            </li>
 
-      <?php endwhile; else : endif; ?>
+        <?php endwhile;
+        else : endif; ?>
 
       </ul>
     </section>
@@ -28,12 +29,7 @@ get_header();
     </section>
 
 
-    <div class="quebra">
-      <blockquote class="quote-externo container">
-        <p>“o verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes da vida cotidiana.”</p>
-        <cite>WILLIAM MORRIS</cite>
-      </blockquote>
-    </div>
+
 <?php endwhile;
 else : endif ?>
 <?php get_footer(); ?>
