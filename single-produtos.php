@@ -25,42 +25,6 @@ get_header();
 			</div>
 		</section>
 
-		<section class="container produto_item">
-			<div class="grid-11">
-				<img src="img/produtos/bikcraft-esporte-1.jpg" alt="Bikcraft Esporte">
-				<h2>Esporte</h2>
-			</div>
-			<div class="grid-5 produto_icone"><img src="img/produtos/esporte.png" alt="Icone Esporte"></div>
-			<div class="grid-8"><img src="img/produtos/bikcraft-esporte-2.jpg" alt="Bikcraft Esporte"></div>
-			<div class="grid-8 produto_info">
-				<p>Mais rápida do que Forrest Gump, ninguém vai pegar você. A Bikcraft Esporte é uma bicicleta desenhada para a máxima performance. O seu desenpenho supera qualquer uma da categoria.</p>
-				<ul>
-					<li>Precisão</li>
-					<li>Velocidade</li>
-					<li>Design</li>
-					<li>Versatilidade</li>
-				</ul>
-			</div>
-		</section>
-
-		<section class="container produto_item">
-			<div class="grid-11">
-				<img src="img/produtos/bikcraft-retro-1.jpg" alt="Bikcraft Retrô">
-				<h2>Retrô</h2>
-			</div>
-			<div class="grid-5 produto_icone"><img src="img/produtos/retro.png" alt="Icone Retrô"></div>
-			<div class="grid-8"><img src="img/produtos/bikcraft-retro-2.jpg" alt="Bikcraft Retrô"></div>
-			<div class="grid-8 produto_info">
-				<p>O passado volta para lembrarmos o que devemos fazer no futuro. A Bikcraft Retrô é uma bicicleta estiloza, feita para você que gosta do clássico, mas que não abre mão do conforto.</p>
-				<ul>
-					<li>Conforto</li>
-					<li>Velocidade</li>
-					<li>Design</li>
-					<li>Versatilidade</li>
-				</ul>
-			</div>
-		</section>
-
 		<section class="orcamento">
 			<div class="container">
 				<h2 class="subtitulo">Orçamento</h2>
